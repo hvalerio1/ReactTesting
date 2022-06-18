@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    margin: 15;
+    padding: 15;
+}
+
+body {
+    background: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    width: 99%;
+    margin: auto;
+}
+
+.menu-btn {
+    
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    z-index: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Navegacion*/
+
+
+.nav-main {
+    font-size: 20;
+    text-align: center;
+    background-color: #2D3142;
+    margin-bottom: 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0px ;
+    margin-left: 45px;
+    border-top: none;
+
+}
+
+.nav-brand {
+    width: 50px;
+
+}
+
+/*barra de navegacion */
+.nav-main ul {
+    display: flex;
+  }
+
+/*separa los accesos de la barra de navegacion*/
+.nav-main ul li {
+    padding: 25px;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 15px;
+}
+
+/*Separacion de menu de navegacion*/
+.nav-main ul li a {
+    padding: 2px;
+}
+
+button {
+    background-color: transparent;
+    font-size: 16px;
+    border: currentColor;
+    display: block;
+    border-radius: 10px;
+    padding: 0.5rem 2.3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+button:focus {
+    outline: 0;
+}
+
+.btn:hover{
+    color: #2D3142;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-color: 0 0 10px 0 #EB9532;
+    background-image: linear-gradient(45deg, #EB9532 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 0.4s ease-in-out;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-position: 0;
+}
+
+
+/*Noticias */
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 70px 0;
+  }  
+
+  .news-cards img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .news-cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.news-cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+.news-cards p {
+    font-size: 14px;
+}
+
+.news-cards a {
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.news-cards a:hover {
+    text-decoration: underline;
+}
+
+/*Cards banner 1*/
+
+.cards-banner-one {
+    width: 100%;
+    height: 390px;
+    background: url(../../img/ban01.png);
+    margin-bottom: 45px;
+}
+
+
+.cards-banner-one .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #000;
+}
+
+.cards-banner-one p,
+.cards-banner-one h2 {
+    margin: 10px 0 20px 0;
+}
+
+.nav-brand{
+    width: 140px;
+    height: 140px;
+    margin-top: 45px;
+    margin-left: -49px;  
+}
+
+
+
+/*cards banner 2*/
+.cards-banner-two {
+    width: 100%;
+    height: 390px;
+    background: url(../../img/baan2.jpg) no-repeat center center/cover;
+    margin-bottom: 55px;
+}
+
+
+.cards-banner-two .content {
+    width: 40%;
+    padding: 100px 0 0 30px;
+    color: rgb(255, 255, 255);
+}
+
+/*Redes sociales*/
+
+.redessociales {
+    margin: 50px;
+}
+
+.redessociales p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 1.6rem;
+}
+
+/*footer links*/
+
+.footer-links {
+    background: #2f3640;
+    color: aqua;
+    font-size: 15px;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*modifica el centrar las cosas*/
+.footer-container ul {
+    margin: 0 auto;
+}
+
+.footer-container ul li {
+    line-height: 2;
+}
+
+/*footer*/
+.footer {
+    background-color: #2f3640;
+    color: #fff;
+    font-size: 13px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.menu-btn {
+    visibility: collapse;
+    z-index: 2;
+}
+
+/*NO TOCAR*/
+.container video {
+    position: relative;
+    width: 96%;
+    height: 96%;
+}
+
+
+
+/*celular*/
+@media (max-width: 910px) {
+    .menu-btn {
+        display: block;
+      }
+
+      .menu-btn:hover {
+        opacity: 0.5;
+      }
+
+    .menu-btn {
+        cursor: pointer;
+        position: absolute;
+        visibility: visible;
+        top: 35px;
+        right: 30px;
+        z-index: 2;
+        font-size: 1.5rem;
+    }
+    
+  .nav-main ul.nav-menu {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+
+    .nav-brand{
+        width: 130px;
+        height: 130px;
+        margin-top: 32px;
+        margin-left: -43px;  
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li {
+        padding: 20px;
+        border-bottom: rgb(0, 0, 0) solid 1px;
+        font-size: 14px;
+    }
+
+    .nav-main ul.nav-menu-rigth {
+        margin-right: 50px;
+    }
+
+    .news-cards{
+    grid-template-columns:repeat(2, 1fr)
+    }
+    .cards-banner-one .content {
+        width: 80%;
+    }
+    .cards-banner-two .content {
+        width: 80%;
+    }
+    .footer-links .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .news-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+      width: 100%;
+      padding: 60px 20px;
+    }
+    .footer-links .footer-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-links .footer-container ul {
+      text-align: center;
+    }
+  }
+  
