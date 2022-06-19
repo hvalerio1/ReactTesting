@@ -1,0 +1,12 @@
+
+ .fondo{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+ 
+ .fondo body{
+    overflow-x: hidden;
+    background-color: #edeff9;
+  }

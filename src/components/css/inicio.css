@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .contenedor{
+    overflow-x: hidden;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 100vh; 
+    background-image:url("../Imagenes/bed.jpg");
+  }

@@ -1,0 +1,32 @@
+.Contenedorlp{
+    overflow-x: hidden;
+    background-color: #edeff9;
+}
+
+.ContenedorT{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.column h1{
+    color: #04060c; 
+    font-family: sans-serif;
+    font-size:2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 15px;
+}
+
+.table{
+    color: #04060c; 
+    font-family: sans-serif;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 50px 10px;    
+}
+
+.table tr,th,td{
+    border: 1px solid #04060c; 
+    padding: 20px;
+}
